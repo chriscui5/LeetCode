@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author:yixiaolan
@@ -7,4 +7,7 @@ package PACKAGE_NAME;
  * @version:1.0
  */
 public class Solo {
+    public static void main(String[] args) {
+        ConcurrentHashMap map=new ConcurrentHashMap(32);
+    }
 }
